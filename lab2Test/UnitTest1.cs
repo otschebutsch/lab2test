@@ -128,7 +128,7 @@ namespace lab2Test
         [Fact]
         public void PathInvalidTest()
         {
-            string path = "that's definitely a wrong path";
+            string path = "\\/////.";
 
             Assert.False(FileWorker.IsPathValid(path));
         }
